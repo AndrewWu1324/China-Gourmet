@@ -1,0 +1,162 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2D3032;
+}
+
+
+.ob{
+    background: #EDB259;
+    border-radius: 10px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 200%;
+/* identical to box height, or 40px */
+    text-align: center;
+
+    color: #393E41;
+}
+
+/* Rectangle 3 */
+
+.rect3{
+    position: absolute;
+    width: 100%;
+    height: 687px;
+    left: 0px;
+    top: 70px;
+
+    background: rgba(36, 25, 25, 0.58);
+}
+
+
+
+
+/* Group 10 */
+
+.group10{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+}
+
+
+/* Rectangle 1 */
+
+.rect1{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #2D3032;
+}
+
+
+/* ChinaGourmet_1345_Longmont_CO0-16fd9d905056b36_16fd9f0e-5056-b365-ab631fa34f634b44-removebg-preview 1 */
+
+.logo{
+    height: 60px;
+}   
+
+
+
+/* Home */
+
+.home{
+    position: absolute;
+    left: 46.81%;
+    right: 42.99%;
+    top: 28.47%;
+    bottom: 39.8%;
+
+    font-family: "PT Sans Caption";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 200%;
+/* or 40px */
+    text-align: center;
+
+    color: #FFFFFF;
+    text-decoration: none
+}
+
+
+
+/* Hours & Location */
+
+.hoursAndLocation{
+    position: absolute;
+    left: 56.11%;
+    right: 24.24%;
+    top: 28.47%;
+    bottom: 38.84%;
+
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 200%;
+/* or 40px */
+    text-align: center;
+
+    color: #FFFFFF;
+    text-decoration: none
+}
+
+
+
+/* Menu */
+
+.menu{
+    position: absolute;
+    left: 74.31%;
+    right: 15.28%;
+    top: 28.47%;
+    bottom: 42.68%;
+
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 200%;
+/* or 40px */
+    text-align: center;
+
+    color: #FFFFFF;
+    text-decoration: none
+}
+
+
+/* Order */
+
+.order{
+    position: absolute;
+    left: 86.88%;
+    right: 3.12%;
+    top: 23.08%;
+    bottom: 15.95%;
+    border: none;
+    border-radius: 10px;
+
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 200%;
+/* or 40px */
+    text-align: center;
+    background: #EDB259;
+
+    color: #FFFFFF;
+}
+
+
+
