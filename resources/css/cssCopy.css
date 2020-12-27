@@ -1,0 +1,193 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2D3032;
+}
+
+
+.ob{
+    background: #EDB259;
+    border-radius: 10px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 200%;
+/* identical to box height, or 40px */
+    text-align: center;
+
+    color: #393E41;
+}
+
+/* Rectangle 3 */
+
+.rect3{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    left: 0px;
+    top: 70px;
+    background: rgba(36, 25, 25, 0.58);
+    background-image: url("../images/wok.png");
+}
+
+
+/* China Gourmet Longmont */
+
+.title{
+position: absolute;
+width: 64%;
+height: 127px;
+left: 25%;
+top: 241px;
+
+font-family: Dancing Script;
+font-style: normal;
+font-weight: bold;
+font-size: 95.37px;
+line-height: 114px;
+
+color: #FFFFFF;
+    
+}
+
+/* Fresh food. Authentic taste. */
+
+.blrb{
+    position: absolute;
+    width: 31.11%;
+    height: 40px;
+    left: 40%;
+    top: 396px;
+
+    font-family: PT Sans Caption;
+    font-style: normal;
+font-weight: bold;
+font-size: 31.25px;
+line-height: 40px;
+
+color: #FFFFFF;
+}
+
+
+
+
+/* Group 10 */
+
+.group10{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: #2D3032;
+}
+
+
+/* ChinaGourmet_1345_Longmont_CO0-16fd9d905056b36_16fd9f0e-5056-b365-ab631fa34f634b44-removebg-preview 1 */
+
+.logo{
+    position:absolute;
+    height: 60px;
+    width: 104px;
+    left: 21px;
+    top: 10%;
+    border-radius: 0px;
+}   
+
+
+
+/* Home */
+
+.home{
+    position: absolute;
+    left: 46.81%;
+    right: 42.99%;
+    top: 25%;
+    bottom: 39.8%;
+
+    font-family: "PT Sans Caption";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 200%;
+/* or 40px */
+    text-align: center;
+
+    color: #FFFFFF;
+    text-decoration: none
+}
+
+
+
+/* Hours & Location */
+
+.hoursAndLocation{
+    position: absolute;
+    left: 56.11%;
+    right: 24.24%;
+    top: 25%;
+    bottom: 38.84%;
+
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 200%;
+/* or 40px */
+    text-align: center;
+
+    color: #FFFFFF;
+    text-decoration: none
+}
+
+
+
+/* Menu */
+
+.menu{
+    position: absolute;
+    left: 74.31%;
+    right: 15.28%;
+    top: 25%;
+    bottom: 42.68%;
+
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 200%;
+/* or 40px */
+    text-align: center;
+
+    color: #FFFFFF;
+    text-decoration: none
+}
+
+
+/* Order */
+
+.order{
+    position: absolute;
+    left: 86.88%;
+    right: 3.12%;
+    top: 23.08%;
+    bottom: 15.95%;
+    border: none;
+    border-radius: 10px;
+
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 200%;
+/* or 40px */
+    text-align: center;
+    background: #EDB259;
+
+    color: #FFFFFF;
+}
+
+
+
