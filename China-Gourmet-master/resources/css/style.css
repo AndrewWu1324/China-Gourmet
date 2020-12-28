@@ -1,0 +1,101 @@
+/**********************/
+/* HOURS AND LOCATION */
+/**********************/
+
+/*typography*/
+h3{
+    font-family: "PT Sans Caption";
+    font-size: 25px;
+    line-height: 200%;
+    color: #2D3032; 
+    font-weight: bold;
+}
+p{
+    font-family: "PT Sans Caption";
+    font-size: 20px;
+    line-height: 200%;
+    color: #2D3032;
+}
+
+/*center everything*/
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+
+/*buttons*/
+.insta, .fb{
+    display:flex;
+    flex-direction:row;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width:fit-content;
+    text-decoration: none;
+}
+.fb-image, .insta-image{
+    height:fit-content;
+    padding:2px 15px 0px 5px;
+}
+.fb-image{
+    padding-top:6px;
+   }
+.fb{
+    background-color: #4267B2;
+}
+.fb p{
+    color:#FFFFFF;
+}
+.insta{
+    background-color:#FCFBFB;
+}
+.fb p,.insta p{
+    transform: translateY(-150%);
+    padding-right:15px;
+}
+
+/*info*/
+.info{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color: #F1E1C8;
+    width:100%;
+}
+.hours, .location, .contact{
+    padding: 5vh 5vw 8vh 0vw;
+    transform: translateX(15%);
+}
+.info .insta{
+    margin-bottom: 15px;
+}
+
+/*map*/
+iframe{
+    margin: 10vh 0vw 10vh 0vw;
+}
+
+/*footer*/
+.footer{
+    text-align:center;
+    background-color: #2D3032;
+    width:100%;
+}
+.copyright{
+    color: #C4C4C4
+}
+.socials{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px 0px 20px 0px;
+}
+.footer .insta, .footer .fb{
+    margin: 0px 15px 0px 15px;
+}
+
+
+
+
