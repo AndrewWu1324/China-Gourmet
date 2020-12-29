@@ -1,162 +1,169 @@
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #2D3032;
-}
-
-
-.ob{
-    background: #EDB259;
-    border-radius: 10px;
-    font-family: Karla;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 200%;
-/* identical to box height, or 40px */
-    text-align: center;
-
-    color: #393E41;
-}
-
-/* Rectangle 3 */
-
-.rect3{
-    position: absolute;
-    width: 100%;
-    height: 687px;
-    left: 0px;
-    top: 70px;
-
-    background: rgba(36, 25, 25, 0.58);
-}
-
-
-
-
-/* Group 10 */
-
-.group10{
+.topnav {
     position: absolute;
     width: 100%;
     height: 70px;
     left: 0px;
     top: 0px;
+    background: #2D3032;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+.topnav-right {
+    float: right;
+}
+
+.logo{
+    position: absolute;
+    left: 1.46%;
+    right: 91.32%;
+    top: 8%;
+    bottom: 15.85%;
+    max-height: 60px;
+}
+
+.topnav a{
+    float: left;
+    padding: 15px 18px 18px 15px;
+    text-decoration: none;
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 200%;
+/* or 40px */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.topnav a:hover{
+    color: grey;
+}
+
+.order{
+    background: #EDB259;
+    font-family: PT Sans Caption;
+    padding: 0px 35px 0px 35px;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 200%;
+    text-decoration: none;
+    border: none;
+    margin-top: 16px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.rect3 {
+    position: absolute;
+    width: 100%;
+    background-image: url("../images/wok.png");
+    height: 800px;
+    padding: 0;
+    left: 0px;
+    margin-top: 62px;
+}
+
+.darken{
+    width: 100%;
+    height: 800px;
+    padding: 0;
+    left: 0px;
+    background: rgba(36, 25, 25, 0.58);
+}
+
+.title{
+    font-family: Dancing Script;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 95.37px;
+    line-height: 114px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 23.42%;
+    top: 22%;
+    opacity: 1;
+}
+
+.blrb{
+    position: absolute;
+    left: 37.09%;
+    top: 40%;
+
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 40px;
+
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.orderNow{
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    position: absolute;
+    width: 230px;
+    height: 72px;
+    left: 43.75%;
+    top: 55%;
+
+    background: #DEA043;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    text-decoration: none;
+    border: none;
 }
 
 
-/* Rectangle 1 */
-
-.rect1{
+.rect8{ 
     position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+    width: 100%;
+    height: 200px;
+    left: 0px;
+    top: 870px;
+    text-align: center;
+    background: #700E0B;
+}
+
+.rect8 a{
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 32px;
+    color: #FFEDED;
+
+    position: absolute;
+    width: 700px;
+    height: 67px;
+    left: 29.5%;
+    top: 38%;
+}
+
+.rect24{
+    position: absolute;
+    width: 100%;
+    height: 175px;
+    left: 0px;
+    top: 1800px;
 
     background: #2D3032;
 }
-
-
-/* ChinaGourmet_1345_Longmont_CO0-16fd9d905056b36_16fd9f0e-5056-b365-ab631fa34f634b44-removebg-preview 1 */
-
-.logo{
-    height: 60px;
-}   
-
-
-
-/* Home */
-
-.home{
-    position: absolute;
-    left: 46.81%;
-    right: 42.99%;
-    top: 28.47%;
-    bottom: 39.8%;
-
-    font-family: "PT Sans Caption";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 200%;
-/* or 40px */
-    text-align: center;
-
-    color: #FFFFFF;
-    text-decoration: none
-}
-
-
-
-/* Hours & Location */
-
-.hoursAndLocation{
-    position: absolute;
-    left: 56.11%;
-    right: 24.24%;
-    top: 28.47%;
-    bottom: 38.84%;
-
-    font-family: PT Sans Caption;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 200%;
-/* or 40px */
-    text-align: center;
-
-    color: #FFFFFF;
-    text-decoration: none
-}
-
-
-
-/* Menu */
-
-.menu{
-    position: absolute;
-    left: 74.31%;
-    right: 15.28%;
-    top: 28.47%;
-    bottom: 42.68%;
-
-    font-family: PT Sans Caption;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 200%;
-/* or 40px */
-    text-align: center;
-
-    color: #FFFFFF;
-    text-decoration: none
-}
-
-
-/* Order */
-
-.order{
-    position: absolute;
-    left: 86.88%;
-    right: 3.12%;
-    top: 23.08%;
-    bottom: 15.95%;
-    border: none;
-    border-radius: 10px;
-
-    font-family: PT Sans Caption;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 200%;
-/* or 40px */
-    text-align: center;
-    background: #EDB259;
-
-    color: #FFFFFF;
-}
-
-
-
