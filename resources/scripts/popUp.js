@@ -29,15 +29,3 @@ span.onclick = function() {
 span2.onclick = function() {
   modalC.style.display = "none";
 }
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-} 
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modalC.style.display = "none";
-  }
-} 
