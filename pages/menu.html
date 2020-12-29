@@ -1,0 +1,100 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../resources/css/glider.css">
+        <link rel="stylesheet" href="../resources/css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=PT Sans Caption|Dancing Script" rel='stylesheet'>
+        <title>China Gourmet Longmont</title>
+    </head>
+  
+    <body>
+
+        <div class="topnav">
+            <img class="logo" src="../resources/images/logo.png" alt="">
+            <div class="topnav-right">
+                <a href="../pages/home.ejs">Home</a>
+                <a href="../pages/hoursAndLocations.html">Hours & Location</a>
+                <a href="../pages/menu.html">Menu</a>
+                <button class="order" id="orderBtn">Order</button>
+
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <p>Order for Delivery</p>
+                    </div>
+                </div>
+                <script src="../resources/scripts/popUp.js">
+                </script>
+            </div>
+        </div>
+
+
+        <div class='brown-rectangle'></div>
+        <div class='brown-triangle'></div>
+        <!--this is supposed to be the menu navigation-->
+        <div class='menu-nav'>
+            <button id='soups'><p>soups</p></button>
+        </div>
+        <!---->
+
+        <div class='glider-container'>
+            <div id="dots" class="glider-dots">
+                <button data-index="0" class="glider-dot active">
+                    <p>Specials</p>
+                </button>
+                <button data-index="1" class="glider-dot"></button>
+                <button data-index="2" class="glider-dot"></button>
+                <button data-index="3" class="glider-dot"></button>
+                <button data-index="4" class="glider-dot"></button>
+                <button data-index="5" class="glider-dot"></button>
+                <button data-index="6" class="glider-dot"></button>
+                <button data-index="7" class="glider-dot"></button>
+                <button data-index="8" class="glider-dot"></button>
+                <button data-index="9" class="glider-dot"></button>
+                <button data-index="10" class="glider-do"></button>
+            </div>
+            <div class="glider">
+                <img src='../resources/images/specials.png' alt="Today's specials">
+                <img src='../resources/images/page1.png' alt='Starters, Beverages, Soups, and Desserts'>
+                <img src='../resources/images/page2.png' alt='Rice and Noodles'>
+                <img src='../resources/images/page3.png' alt='Grill, Salads, and Trios'>
+                <img src='../resources/images/page4.png' alt='Veggie, Tofu, and Healthy Entrees'>
+                <img src='../resources/images/page5.png' alt='Poultry'>
+                <img src='../resources/images/page6.png' alt='Beef, Lamb, and Pork'>
+                <img src='../resources/images/page7.png' alt='Seafood'>
+                <img src='../resources/images/page8.png' alt='Authentic Dishes'>
+                <img src='../resources/images/page9.png' alt='Authentic Dishes'>
+                <img src='../resources/images/page10.png' alt='Authentic Dishes'>
+            </div>
+            <div class="menu-buttons">
+                <button class='glider-prev'>
+                    <i class="fa fa-chevron-left"></i>
+                    <p>Previous</p>
+                </button>
+                <button class='glider-next'>
+                    <p>Next</p>
+                    <i class="fa fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class='footer'>
+            <div class='socials'>
+                <a href="https://www.instagram.com/chinagourmetlongmont/" class='insta'>
+                    <img class='insta-image' src='../resources/images/instagram.png' alt='instagram logo'>
+                    <p>Follow us on Instagram!</p>
+                </a>
+                <a href="https://www.facebook.com/chinagourmetlongmont/" class='fb'>
+                    <img class='fb-image' src='../resources/images/facebook.png' alt='facebook logo'>
+                    <p>Connect with us on Facebook!</p>
+                </a>
+            </div>
+            <p class='copyright'>© 2020 China Gourmet Longmont. All rights reserved</p>
+        </div>
+        <script src="../resources/scripts/glider.js"></script>
+        <script src='../resources/scripts/script.js'></script>
+    </body>
+    
