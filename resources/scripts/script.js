@@ -11,8 +11,8 @@ window.addEventListener('load', function(){
 
 
 /*idk about this part*/
-let soup = document.getElementById('soups');
-let glider = document.getElementsByClassName('glider');
+soup = document.getElementById('soups');
+glider = document.getElementsByClassName('glider');
 soup.onclick = function(){
-  glider.scrollTo(2);
+  glider.scrollItem(2, true);
 };
