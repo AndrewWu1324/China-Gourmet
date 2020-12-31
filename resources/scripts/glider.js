@@ -215,6 +215,35 @@
       _.event(dot, 'add', {
         click: _.scrollItem.bind(_, i, true)
       })
+      switch (i) {
+        case 0:
+          dot.innerHTML = "Today's specials"
+          break
+        case 1:
+          dot.innerHTML = "Starters, Beverages, Soups, and Desserts"
+          break
+        case 2:
+          dot.innerHTML = "Rice and Noodles"
+          break
+        case 3:
+          dot.innerHTML = "Grill, Salads, and Trios"
+          break
+        case 4:
+          dot.innerHTML = "Veggie, Tofu, and Healthy Entrees"
+          break
+        case 5:
+          dot.innerHTML = "Poultry"
+          break
+        case 6:
+          dot.innerHTML = "Beef, Lamb, and Pork"
+          break
+        case 7:
+          dot.innerHTML = "Seafood"
+          break
+        case 8:
+          dot.innerHTML = "Authentic Dishes"
+          break
+      }
       _.dots.appendChild(dot)
     }
   }

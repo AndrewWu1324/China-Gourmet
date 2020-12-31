@@ -378,3 +378,17 @@ iframe{
     text-decoration: none;
     cursor: pointer;
 }
+
+.closeC {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.closeC:hover,
+.closeC:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
