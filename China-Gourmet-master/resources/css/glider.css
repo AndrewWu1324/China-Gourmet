@@ -88,30 +88,40 @@
 }
 .glider-dots {
   user-select: none;
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
   padding: 0;
+  /*added flex*/
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-47vh);
 }
 .glider-dot {
-  border: 0;
+  border:0;
   padding: 0;
   user-select: none;
   outline: none;
   display: block;
   cursor: pointer;
   color: #ccc;
+  /*added style*/
   border-radius: 1px;
-  background: #ccc;
-  width: 90px;
-  height: 50px;
-  margin: 7px;
+  background: #871310;
+  width: 15vw;
+  height: 5.1vh;
+  opacity: 0;
 }
+.glider-dot:hover{
+  opacity:30%;
+}
+.glider-dot:nth-last-child(-n+2){
+  display:none;
+}
+
 .glider-dot:hover,
 .glider-dot:focus,
 .glider-dot.active {
-  background: #a89cc8;
+  background: grey;
 }
 @media(max-width: 36em){
   .glider::-webkit-scrollbar {
