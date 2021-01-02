@@ -88,12 +88,11 @@
 }
 .glider-dots {
   user-select: none;
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
   padding: 0;
-  display: none;
 }
 .glider-dot {
   border: 0;
@@ -125,4 +124,8 @@
     background-color: rgba(156, 156, 156, 0.25);
     box-shadow: 0 0 1px rgba(255,255,255,.25);
   }
+}
+
+.show{
+  display: block;
 }
