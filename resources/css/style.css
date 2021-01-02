@@ -378,3 +378,17 @@ iframe{
     text-decoration: none;
     cursor: pointer;
 }
+
+.dropbtn{
+    background: #871310;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+}
+
+.dropdown{
+    text-align: center;
+}
