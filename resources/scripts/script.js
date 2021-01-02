@@ -16,3 +16,22 @@ glider = document.getElementsByClassName('glider');
 soup.onclick = function(){
   glider.scrollItem(2, true);
 };
+
+
+function myFunction() {
+  document.getElementById("glider-dots").classList.toggle("show");
+}
+
+/*
+window.onclick = function(event) {
+  if (!event.target.matches('.')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+} */

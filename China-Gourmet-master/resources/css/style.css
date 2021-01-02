@@ -344,15 +344,7 @@ button.glider-prev, button.glider-next{
     transform: translateX(110%);
 }
 
-/*menu nav*/
-.menu-labels p{
-    color:white;
-    line-height: 3.1vh;
-    z-index:-1;
-}
-.menu-labels{
-    text-align: center;
-}
+
 .red-rectangle{
     background:#871310;
     margin:0 auto;
@@ -484,3 +476,5 @@ a.viewmenu{
     text-decoration: none;
     cursor: pointer;
 }
+
+.show{display: block;}

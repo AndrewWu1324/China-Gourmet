@@ -207,7 +207,7 @@
     _.dots.innerHTML = ''
     _.dots.classList.add('glider-dots')
 
-    for (var i = 0; i < Math.ceil(_.slides.length / _.opt.slidesToShow); ++i) {
+    for (var i = 0; i < Math.ceil(_.slides.length / _.opt.slidesToShow)-2; ++i) {
       var dot = document.createElement('button')
       dot.dataset.index = i
       dot.setAttribute('aria-label', 'Page ' + (i + 1))
@@ -217,31 +217,31 @@
       })
       switch (i) {
         case 0:
-          dot.innerHTML = "Today's specials"
+          dot.innerHTML = "Specials"
           break
         case 1:
-          dot.innerHTML = "Starters, Beverages, Soups, and Desserts"
+          dot.innerHTML = "Soups and Starters"
           break
         case 2:
           dot.innerHTML = "Rice and Noodles"
           break
         case 3:
-          dot.innerHTML = "Grill, Salads, and Trios"
+          dot.innerHTML = "Grill/Salads & Trios"
           break
         case 4:
-          dot.innerHTML = "Veggie, Tofu, and Healthy Entrees"
+          dot.innerHTML = "Veggie and Tofu"
           break
         case 5:
           dot.innerHTML = "Poultry"
           break
         case 6:
-          dot.innerHTML = "Beef, Lamb, and Pork"
+          dot.innerHTML = "Beef/Lamb & Pork"
           break
         case 7:
           dot.innerHTML = "Seafood"
           break
         case 8:
-          dot.innerHTML = "Authentic Dishes"
+          dot.innerHTML = "Authentic"
           break
       }
       _.dots.appendChild(dot)
