@@ -1,119 +1,4 @@
 
-/***********/
-/* Pop ups */
-/***********/
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-    z-index: 3;
- }
-
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 40px 50px;
-    border: 1px solid #888;
-    width: 40%;
-}
-
-#myModal1 .modal-content{
-    width:700px;
-    padding-right:15px;
-}
-.order-popup{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px 20px;
-    align-items:flex-start;
-}
-
-a.grubhub, a.ubereats, a.doordash{
-    margin: 5px 0px;
-}
-a.viewmenu{
-    background: #871310;
-    border-radius: 10px;
-    padding:0px;
-    width:150px;
-    margin-left:35px;
-}
-.pickup, .delivery{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    padding:0px 40px;
-    padding-bottom:20px;
-    text-align: center;
-}
-.pickup{
-    margin: 0px 0px 30px 20px;
-}
-.delivery{
-    padding-right: 60px;
-    padding-left:25px;
-    border-right: 3px solid #2D3032;
-}
-.covid-text{
-    border: 3px solid #871310;
-    padding: 50px;
-    text-align: center;
-}
-
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    transform: translate(-20px, -20px);
-
-}
-  
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.close2 {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    transform: translate(20px, -20px);
-}
-  
-.close2:hover,
-.close2:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-
-
-
-
-
-
-/***********************************************************************************************/
-/***********************************************************************************************/
-
-
-
-
-
-
-
 /**********************/
 /* HOURS AND LOCATION */
 /**********************/
@@ -423,6 +308,7 @@ p{
     opacity: 1;
     text-align: center;
     transform: translateY(100%);
+    margin:0;
 }
 
 /*about info*/
@@ -463,105 +349,142 @@ p{
 .mobile-about, .mobile-nav{
     display: none;
 }
-/*Mobile Home*/
 
-@media (max-width:490px){
-    p{
-        font-size:16px;
-    }
-    h3{
-        font-size: 20px;
-    }
-   .topnav p, #orderBtn{
-       display:none;
-   }
-   .about-section{
-    flex-wrap: wrap;
+
+
+
+
+
+/***********************************************************************************************/
+/***********************************************************************************************/
+
+
+/***********/
+/* Pop ups */
+/***********/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    z-index: 3;
+ }
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 40px 50px;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+#myModal1 .modal-content{
+    width:700px;
+    padding-right:15px;
+}
+.order-popup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items:flex-start;
+}
+
+.pickup h3, .pickup p{
+    color: #2D3032;
+    padding: 0px 0px 10px 0px;
+}
+.pickup p{
+    margin-top:0px;
+}
+
+.pickup p:hover{
+    color: #2D3032;
+}
+
+a.grubhub, a.ubereats, a.doordash{
+    margin: 5px 0px;
+}
+a.viewmenu{
+    background: #871310;
+    border-radius: 10px;
+    padding: 0px 5px 0px 15px;
+    width:120px;
+    margin-left:45px;
+}
+a.viewmenu p{
+    color:white;
+    padding:0;
+    margin:0;
+}
+a.viewmenu p:hover{
+    color:grey;
+}
+.pickup, .delivery{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0px 40px;
+    padding-bottom:20px;
     text-align: center;
-   }
-   .about-image{
-       width:90%;
-       height:50%;
-   }
-   .title{
-       font-size:48.83px;
-       line-height: 1.2;
-       text-align: center;
-   }
-   .blrb, #orderNowBtn{
-       font-size: 20px;
-   }
-   .giftcard-text{
-       font-size: 16px;
-       transform:translateY(10%);
-       line-height: 2;
-       padding: 0px 28px;
-   }
-   .about-info p{
-       text-align: left;
-       padding:2.5vh;
-   }
-   .locationBtn{
-       font-size: 16px;
-   }
-   .mobile-about, .mobile-nav{
-       display: block;
-   }
-   .screen-about{
-       display:none;
-   }
-   .about-section{
-       padding-top:0.5vh;
-   }
-   .fb p, .insta p{
-       display:none;
-   }
-   .fb{
-    padding: 3px 4px 2px 5px;
-   }
-   .insta-image{
-       padding: 0px;
-   }
-   .insta{
-       padding: 2px 5px;
-   }
-   .socials{
-       padding: 40px 0px 15px 0px;
-   }
-   .topnav{
-       align-items: center;
-   }
-   .mobile-nav{
-       transform: translateX(-20px)
-   }
-   .modal-content{
-       width:50%;
-       margin:20% auto;
-   }
-   .covid-text{
-       border-right:none;
-       border-left:none;
-       padding:15px 0px;
-   }
-   .mobile-popup{
-       background-color: #2D3032;
-        height: 100%;
-        width:100%;
-        position:absolute;
-        top:0px;
-        left:0px;
-   }
+}
+.pickup{
+    margin: 0px 0px 30px 20px;
+}
+.delivery{
+    padding-right: 60px;
+    padding-left:25px;
+    border-right: 3px solid #2D3032;
+}
+.covid-text{
+    border: 3px solid #871310;
+    padding: 50px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    transform: translate(-20px, -20px);
+
+}
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    transform: translate(20px, -20px);
+}
+  
+.close2:hover,
+.close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 
 
 
 
-
 /***********************************************************************************************/
 /***********************************************************************************************/
-
-
 
 
 
@@ -672,3 +595,130 @@ button.glider-prev, button.glider-next{
 }
 
 
+
+
+/*Mobile Home*/
+
+@media (max-width:490px){
+    p{
+        font-size:16px;
+    }
+    h3{
+        font-size: 20px;
+    }
+   .topnav p, #orderBtn{
+       display:none;
+   }
+   .about-section{
+    flex-wrap: wrap;
+    text-align: center;
+   }
+   .about-image{
+       width:90%;
+       height:50%;
+   }
+   .title{
+       font-size:48.83px;
+       line-height: 1.2;
+       text-align: center;
+   }
+   .blrb, #orderNowBtn{
+       font-size: 20px;
+   }
+   .giftcard-text{
+       font-size: 16px;
+       transform:translateY(10%);
+       line-height: 2;
+       padding: 0px 28px;
+   }
+   .about-info p{
+       text-align: left;
+       padding:2.5vh;
+   }
+   .locationBtn{
+       font-size: 16px;
+   }
+   .mobile-about, .mobile-nav{
+       display: block;
+   }
+   .screen-about{
+       display:none;
+   }
+   .about-section{
+       padding-top:0.5vh;
+   }
+   .fb p, .insta p{
+       display:none;
+   }
+   .fb{
+    padding: 3px 4px 2px 5px;
+   }
+   .insta-image{
+       padding: 0px;
+   }
+   .insta{
+       padding: 2px 5px;
+   }
+   .socials{
+       padding: 40px 0px 15px 0px;
+   }
+   .topnav{
+       align-items: center;
+   }
+   .mobile-nav{
+       transform: translateX(-20px)
+   }
+   .modal-content{
+       width:50%;
+       margin:20% auto;
+   }
+   .covid-text{
+       border-right:none;
+       border-left:none;
+       padding:15px 0px;
+   }
+   .mobile-popup{
+       background-color: #2D3032;
+        height: 100%;
+        width:100%;
+        position:absolute;
+        top:0px;
+        left:0px;
+   }
+   .pickup h3, .delivery h3 {
+       display: block;
+       font-size: 20px;
+       width:200px;
+       margin: 20px 0px 5px 0px;
+   } 
+    .viewmenu, .pickup p{
+       display: block;
+       font-size: 16px;
+   }
+
+   a.viewmenu{
+       margin:0;
+       width: 95px;
+   }
+    .order-popup{
+       flex-direction: column;
+       align-items: center;
+       width:60%;
+   }
+    .delivery, .pickup{
+        border-right:none;
+        padding:0;
+        align-items: center;
+        margin:0;
+    }    
+    #myModal1 .modal-content{
+        width:60%;
+        padding: 10px 0px 20px 50px;
+    }
+    a.grubhub img, a.ubereats img, a.doordash img{
+        width:90%;
+    }
+    .close{
+        padding-top:20px;
+    }
+}
