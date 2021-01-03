@@ -9,6 +9,7 @@ window.addEventListener('load', function(){
   })
 })
 
+<<<<<<< HEAD
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) {
   var myDropdown = document.getElementById("dots");
@@ -17,3 +18,31 @@ window.onclick = function(e) {
     }
   }
 }
+=======
+
+/*idk about this part*/
+soup = document.getElementById('soups');
+glider = document.getElementsByClassName('glider');
+soup.onclick = function(){
+  glider.scrollItem(2, true);
+};
+
+
+function myFunction() {
+  document.getElementById("glider-dots").classList.toggle("show");
+}
+
+/*
+window.onclick = function(event) {
+  if (!event.target.matches('.')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+} */
+>>>>>>> parent of 7dbd9f2... Fixed it a bit
