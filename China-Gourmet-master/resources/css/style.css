@@ -696,7 +696,6 @@ button.glider-prev, button.glider-next{
        font-size: 16px;
    }
 
-<<<<<<< HEAD
    a.viewmenu{
        margin:0;
        width: 95px;
@@ -723,6 +722,3 @@ button.glider-prev, button.glider-next{
         padding-top:20px;
     }
 }
-=======
-.show{display: block;}
->>>>>>> parent of 7dbd9f2... Fixed it a bit
