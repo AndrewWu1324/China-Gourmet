@@ -1,3 +1,119 @@
+
+/***********/
+/* Pop ups */
+/***********/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    z-index: 3;
+ }
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 40px 50px;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+#myModal1 .modal-content{
+    width:700px;
+    padding-right:15px;
+}
+.order-popup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items:flex-start;
+}
+
+a.grubhub, a.ubereats, a.doordash{
+    margin: 5px 0px;
+}
+a.viewmenu{
+    background: #871310;
+    border-radius: 10px;
+    padding:0px;
+    width:150px;
+    margin-left:35px;
+}
+.pickup, .delivery{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0px 40px;
+    padding-bottom:20px;
+    text-align: center;
+}
+.pickup{
+    margin: 0px 0px 30px 20px;
+}
+.delivery{
+    padding-right: 60px;
+    padding-left:25px;
+    border-right: 3px solid #2D3032;
+}
+.covid-text{
+    border: 3px solid #871310;
+    padding: 50px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    transform: translate(-20px, -20px);
+
+}
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    transform: translate(20px, -20px);
+}
+  
+.close2:hover,
+.close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/***********************************************************************************************/
+/***********************************************************************************************/
+
+
+
+
+
+
+
 /**********************/
 /* HOURS AND LOCATION */
 /**********************/
@@ -86,8 +202,54 @@ iframe{
 }
 
 /*mobile*/
-@media screen and (max-width:490px){
-   
+@media (max-width:490px){
+    #orderBtn2{
+        display: none;
+    }
+    .info{
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        line-height: initial;
+        margin-top:20px;
+    }
+    .hours, .location, .contact{
+        transform: translateX(0);
+        padding:0px;
+    }
+    .info p{
+        line-height:initial;
+    }
+    .contact-socials{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .contact-socials .fb{
+        margin-left: 10px;
+    }
+    .contact-socials .insta{
+        margin-right: 10px;
+        background: #2D3032;
+    }
+    iframe{
+        width: 90%;
+    }
+    .mobile-decor{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .brown-line{
+        background-color: #D1BC99;
+        width: 20vw;
+        height: 1vh;
+        margin: 0vh 5vw;
+        border-radius: 3px;
+    }
+    
 
 }
 
@@ -106,14 +268,14 @@ iframe{
 /******/
 h3{
     font-family: "PT Sans Caption";
-    font-size: 2vw;
+    font-size: 25px;
     line-height: 200%;
     color: #2D3032; 
     font-weight: bold;
 }
 p{
     font-family: "PT Sans Caption";
-    font-size: 1.7vw;
+    font-size: 20px;
     line-height: 200%;
     color: #2D3032;
 }
@@ -202,6 +364,7 @@ p{
     line-height: 114px;
     color: #FFFFFF;
     z-index: 1;
+    text-align: center;
 }
 
 .blrb{
@@ -369,9 +532,37 @@ p{
        align-items: center;
    }
    .mobile-nav{
-       padding-right: 15px;
+       transform: translateX(-20px)
+   }
+   .modal-content{
+       width:50%;
+       margin:20% auto;
+   }
+   .covid-text{
+       border-right:none;
+       border-left:none;
+       padding:15px 0px;
+   }
+   .mobile-popup{
+       background-color: #2D3032;
+        height: 100%;
+        width:100%;
+        position:absolute;
+        top:0px;
+        left:0px;
    }
 }
+
+
+
+
+
+
+/***********************************************************************************************/
+/***********************************************************************************************/
+
+
+
 
 
 
@@ -478,108 +669,6 @@ button.glider-prev, button.glider-next{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-
-
-
-/***********/
-/* Pop ups */
-/***********/
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-    z-index: 3;
- }
-
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 40px 50px;
-    border: 1px solid #888;
-    width: 40%;
-}
-
-#myModal1 .modal-content{
-    width:700px;
-    padding-right:15px;
-}
-.order-popup{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px 20px;
-    align-items:flex-start;
-}
-
-a.grubhub, a.ubereats, a.doordash{
-    padding:0px;
-}
-a.viewmenu{
-    background: #871310;
-    border-radius: 10px;
-    padding:0px;
-    width:150px;
-    margin-left:35px;
-}
-.pickup, .delivery{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    padding:0px 40px;
-    padding-bottom:20px;
-    text-align: center;
-}
-.pickup{
-    margin: 0px 0px 30px 20px;
-}
-.delivery{
-    padding-right: 60px;
-    padding-left:25px;
-    border-right: 3px solid #2D3032;
-}
-.covid-text{
-    border: 3px solid #871310;
-    padding: 50px;
-    text-align: center;
-}
-
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    transform: translate(-20px, -20px);
-}
-  
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.close2 {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    transform: translate(20px, -20px);
-}
-  
-.close2:hover,
-.close2:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
 }
 
 
