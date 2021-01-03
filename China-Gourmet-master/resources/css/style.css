@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /**********************/
 /* HOURS AND LOCATION */
@@ -166,6 +167,11 @@ p{
     color: #2D3032;
 }
 
+=======
+/******/
+/*HOME*/
+/******/
+>>>>>>> parent of 73a2537... Merge branch 'master' of https://github.com/AndrewWu1324/China-Gourmet
 =======
 /******/
 /*HOME*/
@@ -361,6 +367,7 @@ h3{
     line-height: 200%;
     color: #2D3032; 
     font-weight: bold;
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 
@@ -502,6 +509,9 @@ a.viewmenu p:hover{
 
 
 =======
+=======
+}
+>>>>>>> parent of 73a2537... Merge branch 'master' of https://github.com/AndrewWu1324/China-Gourmet
 p{
     font-family: "PT Sans Caption";
     font-size: 20px;
@@ -564,6 +574,7 @@ body{
 .info .insta{
     margin-bottom: 15px;
 }
+<<<<<<< HEAD
 
 /*map*/
 iframe{
@@ -571,6 +582,14 @@ iframe{
 }
 >>>>>>> parent of 73a2537... Merge branch 'master' of https://github.com/AndrewWu1324/China-Gourmet
 
+=======
+
+/*map*/
+iframe{
+    margin: 10vh 0vw 10vh 0vw;
+}
+
+>>>>>>> parent of 73a2537... Merge branch 'master' of https://github.com/AndrewWu1324/China-Gourmet
 /*footer*/
 .footer{
     text-align:center;
@@ -691,8 +710,11 @@ button.glider-prev, button.glider-next{
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*Mobile Home*/
 =======
+=======
+>>>>>>> parent of 73a2537... Merge branch 'master' of https://github.com/AndrewWu1324/China-Gourmet
 /*********/
 /* Pop ups */
 /********/
@@ -888,4 +910,7 @@ button.glider-prev, button.glider-next{
     cursor: pointer;
 }
 
+<<<<<<< HEAD
+>>>>>>> parent of 73a2537... Merge branch 'master' of https://github.com/AndrewWu1324/China-Gourmet
+=======
 >>>>>>> parent of 73a2537... Merge branch 'master' of https://github.com/AndrewWu1324/China-Gourmet
