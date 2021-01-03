@@ -391,4 +391,7 @@ iframe{
 
 .dropdown{
     text-align: center;
+    position: absolute;
+    top: 20%;
+    z-index: 3;
 }
