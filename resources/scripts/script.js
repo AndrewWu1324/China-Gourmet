@@ -9,10 +9,6 @@ window.addEventListener('load', function(){
   })
 })
 
-function myFunction() {
-  document.getElementById("dots").classList.toggle("show");
-}
-
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) {
   var myDropdown = document.getElementById("dots");
