@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 
 /**********************/
 /* HOURS AND LOCATION */
@@ -165,6 +167,16 @@ p{
     color: #2D3032;
 }
 
+=======
+/******/
+/*HOME*/
+/******/
+>>>>>>> parent of 73a2537... Merge branch 'master' of https://github.com/AndrewWu1324/China-Gourmet
+=======
+/******/
+/*HOME*/
+/******/
+>>>>>>> parent of 73a2537... Merge branch 'master' of https://github.com/AndrewWu1324/China-Gourmet
 
 /*navbar*/
 .topnav {
@@ -176,7 +188,6 @@ p{
     background: #2D3032;
     position:fixed;
     z-index:2;
-    align-items: center;
 }
 
 .logo{
@@ -184,7 +195,7 @@ p{
     padding: 5px 10px 0px 0px;
 }
 
-.topnav p{
+.topnav a{
     float: left;
     padding: 15px 18px 18px 15px;
     text-decoration: none;
@@ -198,7 +209,7 @@ p{
     color: #FFFFFF;
 }
 
-.topnav p:hover{
+.topnav a:hover{
     color: grey;
 }
 
@@ -215,7 +226,7 @@ p{
     line-height: 200%;
     text-decoration: none;
     border: none;
-    margin-top: 36px;
+    margin-top: 16px;
     margin-right: 30px;
     margin-left: 20px;
     cursor: pointer;
@@ -303,7 +314,7 @@ p{
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
-    line-height: 2;
+    line-height: 40px;
     color: #FFFFFF;
     opacity: 1;
     text-align: center;
@@ -316,17 +327,14 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     padding: 16vh 10vw 16vh 10vw;
 }
 .about-info, .about-image{
     margin: 0vw 2vw 0vh 2vw;
 }
-.about-info{
-    font-size: 1.66rem;
-}
 .about-image{
     height:55vh;
+    transform:translateY(10%);
 }
 .about-info p{
     transform: translateY(-3%);
@@ -337,7 +345,7 @@ p{
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 2;
+    line-height: 40px;
     text-align: center;
     color: #FFFFFF;
     cursor: pointer;
@@ -346,9 +354,22 @@ p{
     padding: 10px 15px 10px 15px;
     margin-top: 10px;
 }
-.mobile-about, .mobile-nav{
-    display: none;
+
+
+/**********************/
+/* HOURS AND LOCATION */
+/**********************/
+
+/*typography*/
+h3{
+    font-family: "PT Sans Caption";
+    font-size: 25px;
+    line-height: 200%;
+    color: #2D3032; 
+    font-weight: bold;
+<<<<<<< HEAD
 }
+<<<<<<< HEAD
 
 
 
@@ -487,7 +508,106 @@ a.viewmenu p:hover{
 /***********************************************************************************************/
 
 
+=======
+=======
+}
+>>>>>>> parent of 73a2537... Merge branch 'master' of https://github.com/AndrewWu1324/China-Gourmet
+p{
+    font-family: "PT Sans Caption";
+    font-size: 20px;
+    line-height: 200%;
+    color: #2D3032;
+}
 
+/*center everything*/
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+
+/*buttons*/
+.insta, .fb{
+    display:flex;
+    flex-direction:row;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width:fit-content;
+    text-decoration: none;
+}
+.fb-image, .insta-image{
+    height:fit-content;
+    padding:2px 15px 0px 5px;
+}
+.fb-image{
+    padding-top:6px;
+   }
+.fb{
+    background-color: #4267B2;
+}
+.fb p{
+    color:#FFFFFF;
+}
+.insta{
+    background-color:#FCFBFB;
+}
+.fb p,.insta p{
+    transform: translateY(-150%);
+    padding-right:15px;
+}
+
+/*info*/
+.info{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color: #F1E1C8;
+    width:100%;
+    padding-top:70px;
+}
+.hours, .location, .contact{
+    padding: 5vh 5vw 8vh 0vw;
+    transform: translateX(15%);
+}
+.info .insta{
+    margin-bottom: 15px;
+}
+<<<<<<< HEAD
+
+/*map*/
+iframe{
+    margin: 10vh 0vw 10vh 0vw;
+}
+>>>>>>> parent of 73a2537... Merge branch 'master' of https://github.com/AndrewWu1324/China-Gourmet
+
+=======
+
+/*map*/
+iframe{
+    margin: 10vh 0vw 10vh 0vw;
+}
+
+>>>>>>> parent of 73a2537... Merge branch 'master' of https://github.com/AndrewWu1324/China-Gourmet
+/*footer*/
+.footer{
+    text-align:center;
+    background-color: #2D3032;
+    width:100%;
+}
+.copyright{
+    color: #C4C4C4
+}
+.socials{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px 0px 20px 0px;
+}
+.footer .insta, .footer .fb{
+    margin: 0px 15px 0px 15px;
+}
 
 
 
@@ -556,15 +676,7 @@ button.glider-prev, button.glider-next{
     transform: translateX(110%);
 }
 
-/*menu nav*/
-.menu-labels p{
-    color:white;
-    line-height: 3.1vh;
-    z-index:-1;
-}
-.menu-labels{
-    text-align: center;
-}
+
 .red-rectangle{
     background:#871310;
     margin:0 auto;
@@ -597,7 +709,49 @@ button.glider-prev, button.glider-next{
 
 
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 /*Mobile Home*/
+=======
+=======
+>>>>>>> parent of 73a2537... Merge branch 'master' of https://github.com/AndrewWu1324/China-Gourmet
+/*********/
+/* Pop ups */
+/********/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    z-index: 3;
+ }
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 40px 50px;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+#myModal1 .modal-content{
+    width:700px;
+    padding-right:15px;
+}
+.order-popup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items:flex-start;
+}
+>>>>>>> parent of 73a2537... Merge branch 'master' of https://github.com/AndrewWu1324/China-Gourmet
 
 @media (max-width:490px){
     p{
@@ -612,6 +766,7 @@ button.glider-prev, button.glider-next{
    .about-section{
     flex-wrap: wrap;
     text-align: center;
+<<<<<<< HEAD
    }
    .about-image{
        width:90%;
@@ -722,3 +877,40 @@ button.glider-prev, button.glider-next{
         padding-top:20px;
     }
 }
+=======
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    transform: translate(-20px, -20px);
+}
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    transform: translate(20px, -20px);
+}
+  
+.close2:hover,
+.close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+<<<<<<< HEAD
+>>>>>>> parent of 73a2537... Merge branch 'master' of https://github.com/AndrewWu1324/China-Gourmet
+=======
+>>>>>>> parent of 73a2537... Merge branch 'master' of https://github.com/AndrewWu1324/China-Gourmet

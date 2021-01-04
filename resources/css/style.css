@@ -1,4 +1,3 @@
-
 /**********************/
 /* HOURS AND LOCATION */
 /**********************/
@@ -479,12 +478,29 @@ a.viewmenu p:hover{
     cursor: pointer;
 }
 
+.closeC {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    transform: translate(20px, -20px);
+}
+  
+.closeC:hover,
+.closeC:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
 
 
 
 /***********************************************************************************************/
 /***********************************************************************************************/
+
+
 
 
 
@@ -501,7 +517,7 @@ a.viewmenu p:hover{
     width: 100%;
     height: 50vh;
     position: absolute;
-    z-index: -3;
+    z-index: -1;
 }
 .brown-triangle{
     width: 0;
@@ -510,7 +526,7 @@ a.viewmenu p:hover{
     border-right: 100vw solid #F1E1C8;
     border-bottom: 50vh solid transparent;
     position:absolute;
-    z-index: -3;
+    z-index: -1;
 }
 
 /*glider*/
@@ -520,8 +536,7 @@ a.viewmenu p:hover{
     border:5px solid #871310;
     border-radius:10px;
     transform: translateY(15%);
-    margin-bottom: 50vh;
-    z-index: -3;
+    margin-bottom: 500px;
 }
 .glider img{
     border-right: 3px solid #2D3032;
@@ -532,20 +547,20 @@ a.viewmenu p:hover{
 
 
 /*buttons*/
-button.glider-prev, button.glider-next{
+.glider-prev, .glider-next{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    color:white;
     background-color: #871310;
     border-radius: 10px;
+    color:#FFFFFF;
     padding: 0px 15px;
     margin-top: 20vh;
 
 }
 .glider-prev p, .glider-next p{
-    color:white;
+    color:#FFFFFF;
     padding:0px 10px;
 }
 .glider-prev{
@@ -554,50 +569,23 @@ button.glider-prev, button.glider-next{
 .glider-next{
     transform: translateX(110%);
 }
+.dropbtn{
+    background: #871310;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+}
 
-/*menu nav
-.menu-labels p{
-    color:white;
-    line-height: 3.1vh;
-    z-index:-1;
-}
-.menu-labels{
+.dropdown{
     text-align: center;
-    display: none;
+    position: absolute;
+    top: 20%;
+    z-index: 3;
 }
-.red-rectangle{
-    background:#871310;
-    margin:0 auto;
-    height:5vh;
-    width:15vw;
-    border-top: 0.1vh solid white;
-}
-.red-rectangle:first-child{
-    height: 6vh;
-}
-.menu-nav-bg{
-    z-index: -2;
-    display: flex;
-    flex-direction: column;
-    transform:translateY(-94vh);
-    display: none;
-}
-.menu-button{
-    height:5.1vh;
-    width:15vw;
-    color:white;
-    border: 3px solid white;
-    border-radius:10px;
-    margin-top:18.5vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.show{
-    display: block;
-}
-*/
+
 
 
 

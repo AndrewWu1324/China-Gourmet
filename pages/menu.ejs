@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
     <head>
@@ -11,6 +10,7 @@
     </head>
   
     <body>
+
         <div class="topnav">
             <img class="logo" src="../resources/images/logo.png" alt="">
             <div class="topnav-right">
@@ -32,7 +32,7 @@
                         <div class='pickup'>
                               <h3>Order for Pickup</h3>
                               <p>Call 303-776-6930 to place your pickup order today</p>
-                              <a class='viewmenu' href="../pages/menu.html">View Menu</a>
+                              <a class='viewmenu' href="../pages/menu.ejs">View Menu</a>
                         </div>
                       </div>
                     </div>
@@ -44,9 +44,10 @@
 
         <div class='brown-rectangle'></div>
         <div class='brown-triangle'></div>
-
-        <div id="dots" class="glider-dots"></div>
-
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Menu</button>
+            <div id="dots" class="glider-dots"></div>
+        </div>
         <div class='glider-container'>
             <div class="glider">
                 <img src='../resources/images/specials.png' alt="Today's specials">
@@ -89,4 +90,3 @@
         <script src="../resources/scripts/glider.js"></script>
         <script src='../resources/scripts/script.js'></script>
     </body>
-    
