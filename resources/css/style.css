@@ -713,4 +713,11 @@ a.viewmenu p:hover{
     .close{
         padding-top:20px;
     }
+    .mobile-navbar{
+        display: none;
+        position: fixed;
+    }
+    .show{
+        display: block;
+    }
 }

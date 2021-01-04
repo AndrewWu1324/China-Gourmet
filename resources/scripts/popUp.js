@@ -17,3 +17,14 @@ btn.onclick = function() {
 span.onclick = function() {
   modal.style.display = "none";
 }
+
+
+var modalM = document.getElementById("mobileModal");
+var btnM = document.getElementById("mobileBtn");
+var spanM = document.getElementsByClassName("closeM")[0];
+btnM.onclick = function() {
+  modalM.style.display = "block";
+}
+spanM.onclick = function() {
+  modalM.style.display = "none";
+}
