@@ -68,11 +68,15 @@
 .glider-next:hover,
 .glider-prev:focus,
 .glider-next:focus {
-  color: #a89cc8;
+  color: grey;
 }
 .glider-next {
-  right: -23px;
+  right: 5vw;
   left: auto;
+  transform: translateX(-5vw);
+}
+.glider-prev{
+  left:3vw;
 }
 .glider-next.disabled,
 .glider-prev.disabled {
@@ -88,36 +92,34 @@
 }
 .glider-dots {
   user-select: none;
+  display: none;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
   padding: 0;
-  /*added flex*/
-  display: flex;
-  flex-direction: column;
-  transform: translateY(-47vh);
 }
 .glider-dot {
-  border:0;
+  border: 0;
   padding: 0;
   user-select: none;
   outline: none;
   display: block;
   cursor: pointer;
-  color: #ccc;
-  /*added style*/
-  border-radius: 1px;
+  width: 14vw;
+  height: 50px;
+  margin: 0;
   background: #871310;
-  width: 15vw;
-  height: 5.1vh;
-  opacity: 0;
+  color: white;
+  line-height: 3.1vh;
+  z-index:-1;
+  font-family: "PT Sans Caption";
+  font-size:20px;
 }
-.glider-dot:hover{
-  opacity:30%;
+@media (max-width:480px){
+  .glider-dot{
+    width:35vw;
+  }
 }
-.glider-dot:nth-last-child(-n+2){
-  display:none;
-}
-
 .glider-dot:hover,
 .glider-dot:focus,
 .glider-dot.active {
@@ -136,4 +138,8 @@
     background-color: rgba(156, 156, 156, 0.25);
     box-shadow: 0 0 1px rgba(255,255,255,.25);
   }
+}
+
+.show{
+  display: block;
 }
