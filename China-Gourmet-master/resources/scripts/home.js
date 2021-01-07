@@ -31,5 +31,13 @@ span2.onclick = function() {
   modal2.style.display = "none";
 }
 spanC.onclick = function() {
+  modalC.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal || event.target == modal2 || event.target == modalC) {
+    modal.style.display = "none";
+    modal2.style.display = "none";
     modalC.style.display = "none";
   }
+}
