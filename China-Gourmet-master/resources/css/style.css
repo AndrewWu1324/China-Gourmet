@@ -62,7 +62,6 @@ body{
 /*map*/
 iframe{
     margin: 10vh 0vw 10vh 0vw;
-    width: 80%;
 }
 
 
@@ -118,7 +117,7 @@ iframe{
         background: #2D3032;
     }
     iframe{
-        width: 90%;
+        width: 100%;
     }
     .mobile-decor{
         display: flex;
