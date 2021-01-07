@@ -10,7 +10,6 @@
     </head>
   
     <body>
-
         <div class="topnav">
             <img class="logo" src="../resources/images/logo.png" alt="">
             <div class="topnav-right">
@@ -18,7 +17,7 @@
                 <a href="../pages/hoursAndLocations.html"><p>Hours & Locations</p></a>
                 <a href="../pages/menu.html"><p>Menu</p></a>
                 <button class="order" id="orderBtn">Order</button>
-                <img class='mobile-nav' src='../resources/images/mobile-nav.png' alt='opens nav-menu'>
+                <img class='mobile-nav' src='../resources/images/mobile-nav.png' alt='opens nav-menu' id="mobileBtn">
                 <div id="myModal" class="modal">
                     <div class="modal-content">
                       <span class="close">&times;</span>
@@ -88,6 +87,16 @@
             </div>
             <p class='copyright'>© 2020 China Gourmet Longmont. All rights reserved</p>
         </div>
+
+        <div id="mobileModal" class="mobile-navbar">
+            <span class="closeM">&times;</span>
+            <a href="../pages/home.html"><p>Home</p></a>
+            <a href="../pages/hoursAndLocations.html"><p>Hours & Location</p></a>
+            <a href="../pages/menu.html"><p>Menu</p></a>
+            <a id="orderBtnM"><p>Order</p></button>
+        </div>
+        <script src="../resources/scripts/popUp.js"></script>
+
         <script src="../resources/scripts/glider.js"></script>
         <script src='../resources/scripts/script.js'></script>
     </body>
