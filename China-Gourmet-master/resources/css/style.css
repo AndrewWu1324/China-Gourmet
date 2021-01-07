@@ -381,7 +381,7 @@ p{
     margin: 15% auto;
     padding: 40px 50px;
     border: 1px solid #888;
-    width: 40%;
+    width: 620px;
 }
 
 #myModal1 .modal-content{
@@ -392,8 +392,9 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px 20px;
     align-items:flex-start;
+    transform: translate(10px, 20px);
+
 }
 
 .pickup h3, .pickup p{
@@ -417,6 +418,7 @@ a.viewmenu{
     padding: 0px 5px 0px 15px;
     width:120px;
     margin-left:45px;
+    transform: translateX(-20px);
 }
 a.viewmenu p{
     color:white;
@@ -453,7 +455,7 @@ a.viewmenu p:hover{
     float: right;
     font-size: 28px;
     font-weight: bold;
-    transform: translate(-20px, -20px);
+    transform: translate(0px, -20px);
 
 }
   
@@ -515,9 +517,31 @@ a.viewmenu p:hover{
     background: #2D3032;
     text-align: center;
 }
-p.mobile-navbar{
+.mobile-navbar p{
     color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #D1BC99;
+    margin:0 auto;
+    padding: 10px;
+    width:60vw;
 }
+.mobile-navbar a{
+    text-decoration:none;
+}
+.text-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+}
+.closeM{
+    transform: translate(-25px, 15px);
+}
+.top-border{
+    border-top: 2px solid #D1BC99;
+}
+
 
 
 
@@ -725,13 +749,12 @@ button.glider-prev, button.glider-next{
    }
 
    a.viewmenu{
-       margin:0;
        width: 95px;
    }
     .order-popup{
        flex-direction: column;
        align-items: center;
-       width:60%;
+       transform: translate(10px, 0px);
    }
     .delivery, .pickup{
         border-right:none;
@@ -747,7 +770,7 @@ button.glider-prev, button.glider-next{
         width:90%;
     }
     .close{
-        padding-top:20px;
+        transform: translate(30px, -30px);
     }
 }
 
