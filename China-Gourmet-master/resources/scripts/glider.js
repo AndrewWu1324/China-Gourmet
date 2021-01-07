@@ -220,16 +220,16 @@
           dot.innerHTML = "Specials"
           break
         case 1:
-          dot.innerHTML = "Soups and Starters"
+          dot.innerHTML = "Soups & Starters"
           break
         case 2:
-          dot.innerHTML = "Rice and Noodles"
+          dot.innerHTML = "Rice & Noodles"
           break
         case 3:
           dot.innerHTML = "Grill/Salads & Trios"
           break
         case 4:
-          dot.innerHTML = "Veggie and Tofu"
+          dot.innerHTML = "Veggie & Tofu"
           break
         case 5:
           dot.innerHTML = "Poultry"

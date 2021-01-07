@@ -14,10 +14,11 @@ function myFunction() {
 }
 
 window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-  var myDropdown = document.getElementById("dots");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
+  if(!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("dots");
+    myDropdown.classList.remove('show');
+    if (event.target == modal) {
+      modal.style.display = "none";
     }
   }
 }
