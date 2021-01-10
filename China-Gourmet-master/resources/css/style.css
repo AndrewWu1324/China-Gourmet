@@ -37,7 +37,7 @@ body{
     background-color:#FCFBFB;
 }
 .fb p,.insta p{
-    transform: translateY(-150%);
+    transform: translateY(-15px);
     padding-right:15px;
     font-size: 20px;
 }
@@ -85,7 +85,7 @@ iframe{
 }
 
 /*mobile*/
-@media (max-width:490px){
+@media only screen and (max-width:490px){
     #orderBtn2{
         display: none;
     }
@@ -650,7 +650,7 @@ button.glider-prev, button.glider-next{
 
 /*Mobile Home*/
 
-@media (max-width:490px){
+@media only screen and (max-width:490px){
     p{
         font-size:16px;
     }
@@ -774,12 +774,13 @@ button.glider-prev, button.glider-next{
 }
 
 /*mobile menu*/
-@media (max-width:490px){
+@media only screen and (max-width:490px){
     .glider-container{
         border: 2px solid #871310;
         margin-top: 30vh;
         margin-bottom: 30vh;
-        width:90%
+        width:90%;
+        height: initial;
     }
     .dropbtn{
         border: 2px solid black;
