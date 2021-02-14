@@ -17,7 +17,8 @@
   margin: 0;
   padding: 0;
   display: flex;
-  z-index: 1;
+  align-items: flex-start;
+  z-index: 0;
 }
 .glider.draggable {
   user-select: none;
@@ -107,13 +108,14 @@
   cursor: pointer;
   width: 14vw;
   height: 50px;
-  margin: 0;
+  margin: auto;
   background: #871310;
   color: white;
   line-height: 3.1vh;
-  z-index:-1;
   font-family: "PT Sans Caption";
   font-size:20px;
+  transform: translateZ(100px);
+  margin: 0 auto;
 }
 @media (max-width:480px){
   .glider-dot{
