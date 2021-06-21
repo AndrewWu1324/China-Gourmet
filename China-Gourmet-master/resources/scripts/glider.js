@@ -219,31 +219,31 @@
         case 0:
           dot.innerHTML = "Specials"
           break
-        case 1:
+        /*case 1:
           dot.innerHTML = "Chinese New Year Specials"
-          break
-        case 2:
+          break*/
+        case 1:
           dot.innerHTML = "Soups & Starters"
           break
-        case 3:
+        case 2:
           dot.innerHTML = "Rice & Noodles"
           break
-        case 4:
+        case 3:
           dot.innerHTML = "Grill/Salads & Trios"
           break
-        case 5:
+        case 4:
           dot.innerHTML = "Veggie & Tofu"
           break
-        case 6:
+        case 5:
           dot.innerHTML = "Poultry"
           break
-        case 7:
+        case 6:
           dot.innerHTML = "Beef/Lamb & Pork"
           break
-        case 8:
+        case 7:
           dot.innerHTML = "Seafood"
           break
-        case 9:
+        case 8:
           dot.innerHTML = "Authentic"
           break
       }
